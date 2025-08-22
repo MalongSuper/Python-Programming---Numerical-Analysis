@@ -1,4 +1,4 @@
-# Find the largest eigenvalue of a matrix
+# Find the smallest eigenvalue of a matrix
 # Using inverse power method
 import numpy as np
 
