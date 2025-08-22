@@ -37,7 +37,7 @@ def main():
     print("Matrix:\n", matrix)
     print("Vector:", x)
     eigenvalue, eigenvector = inverse_power_method(matrix, x)
-    print("Largest Eigenvalue:", eigenvalue)
+    print("Smallest Eigenvalue:", eigenvalue)
     print("Eigenvector:", eigenvector)
 
 
