@@ -30,7 +30,7 @@ def inverse_power_method(matrix_a, x_init, iterations=50, tol=1.0e-16):
 
 
 def main():
-    print("Largest Eigenvalue (Inverse Power Method)")
+    print("Smallest Eigenvalue (Inverse Power Method)")
     n = int(input("Enter size: "))
     matrix = np.random.randint(0, 10, size=(n, n))
     x = np.random.randint(0, 2, size=n)
